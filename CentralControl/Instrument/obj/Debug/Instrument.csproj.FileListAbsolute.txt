@@ -6,3 +6,11 @@ D:\高通量仪器\GTL_stable\GTL\CentralControl\Instrument\bin\Debug\GTLutils.p
 D:\高通量仪器\GTL_stable\GTL\CentralControl\Instrument\obj\Debug\Instrument.csprojResolveAssemblyReference.cache
 D:\高通量仪器\GTL_stable\GTL\CentralControl\Instrument\obj\Debug\Instrument.dll
 D:\高通量仪器\GTL_stable\GTL\CentralControl\Instrument\obj\Debug\Instrument.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\bin\Debug\Instrument.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\bin\Debug\Instrument.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\bin\Debug\GTLutils.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\bin\Debug\TwinCAT.Ads.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\bin\Debug\GTLutils.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\obj\Debug\Instrument.csprojResolveAssemblyReference.cache
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\obj\Debug\Instrument.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\Instrument\obj\Debug\Instrument.pdb
