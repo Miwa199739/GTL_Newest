@@ -12,3 +12,17 @@ D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLTest\obj\Debug\GTLTest.Prope
 D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLTest\obj\Debug\GTLTest.csproj.GenerateResource.Cache
 D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLTest\obj\Debug\GTLTest.exe
 D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLTest\obj\Debug\GTLTest.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\GTLTest.exe
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\GTLTest.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\GTLutils.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\Instrument.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\TwinCAT.Ads.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\GTLutils.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\bin\Debug\Instrument.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\GTLTest.csprojResolveAssemblyReference.cache
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\CentralControl.DemoDeviceForm.resources
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\CentralControl.ControlForm.resources
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\GTLTest.Properties.Resources.resources
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\GTLTest.csproj.GenerateResource.Cache
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\GTLTest.exe
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLTest\obj\Debug\GTLTest.pdb

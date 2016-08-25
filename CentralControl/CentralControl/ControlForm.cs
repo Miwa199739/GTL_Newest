@@ -164,6 +164,8 @@ namespace CentralControl
 
         private void searchButton_Click(object sender, EventArgs e)
         {
+
+            DBUtil use = new DBUtil();
             DataQueryForm form = new DataQueryForm();
             form.FatherForm = this;
             form.Show();

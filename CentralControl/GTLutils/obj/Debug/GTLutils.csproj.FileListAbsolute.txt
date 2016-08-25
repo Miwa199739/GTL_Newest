@@ -3,3 +3,8 @@ D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLutils\bin\Debug\GTLutils.pdb
 D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLutils\bin\Debug\TwinCAT.Ads.dll
 D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLutils\obj\Debug\GTLutils.dll
 D:\高通量仪器\GTL_stable\GTL\CentralControl\GTLutils\obj\Debug\GTLutils.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLutils\bin\Debug\GTLutils.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLutils\bin\Debug\GTLutils.pdb
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLutils\bin\Debug\TwinCAT.Ads.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLutils\obj\Debug\GTLutils.dll
+H:\SJTU\hxd\GTL_Newest\CentralControl\GTLutils\obj\Debug\GTLutils.pdb
