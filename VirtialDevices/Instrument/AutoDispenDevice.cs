@@ -53,6 +53,8 @@ namespace Instrument
         private System.Timers.Timer samTimer = null;
         private System.Timers.Timer dispenTimer = null;
 
+        private int MDF_RemianedDish = 0; //控制剩余的培养皿数量
+
         public void sendCmd(String cmd)
         {
             SendModBusMsg(ModbusMessage.MessageType.CMD, "Cmd", cmd);
@@ -124,7 +126,10 @@ namespace Instrument
         {
             lock (KeyObject)
             {
-                return (MDF_NumsperStack - MDF_WhichStack) * 36 + 36 - MDF_WhichDish;    
+                if ((MDF_NumsperStack - MDF_RemianedDish) >= 0)
+                    return MDF_NumsperStack - MDF_RemianedDish;  //中控端按下开始按钮后，剩余培养皿数量依次递减
+                else
+                    return 0;
             }
         }
 
@@ -152,6 +157,7 @@ namespace Instrument
                     MDF_WhichStack = 1;
                     dispenTimer.Stop();
                 }
+                MDF_RemianedDish++;
             }
         }
 
@@ -242,25 +248,31 @@ namespace Instrument
             String cmd = (String)msg.Data["Cmd"];
             if ("Start".Equals(cmd))
             {
-                //dispenTimer.Start();
+                dispenTimer.Start();
                 this.MDF_Cmd = "Start";
             }
             if ("Reset".Equals(cmd))
             {
                 MDF_WhichDish = 1;
                 MDF_WhichStack = 1;
+                MDF_RemianedDish = 0;
                 this.MDF_Cmd = "Reset";
             }
             if ("Stop".Equals(cmd))
             {
-                //dispenTimer.Stop();
+                dispenTimer.Stop();
                 this.MDF_Cmd = "Stop";
             }
             if ("Auto".Equals(cmd))
             {
+                //先复位
+                MDF_WhichDish = 1;
+                MDF_WhichStack = 1;
+                MDF_RemianedDish = 0;
+                //再开始
+                dispenTimer.Start();
                 this.MDF_Cmd = "Auto";
             }
-
             this.sendOKResponse();
         }
 
